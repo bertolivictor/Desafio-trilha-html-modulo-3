@@ -4,14 +4,18 @@ body, html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .logo {
-    margin-left: 20px;
+    width: 20%;
+    margin-left: 10px;
 }
 .title {
+    width: 80%;
+    box-sizing: border-box;
     text-align: center;
     flex-grow: 1;
 }
@@ -58,15 +62,23 @@ main {
 .audience-graph img{
     margin: 20px 80px;
 }
+.music-table table {
+    font-weight: 500;
+    font-size: medium;
+}
 .music-table td {
     white-space: nowrap;
 }
 .music-table th {
-    background-color: #777777;
+    background-color: #666666;
+    text-align: center;
     color: #ffffff;
 }
 .music-table tr {
-    background-color: #cccccc;
+    font-size: large;
+    font-weight: 600;
+    color: #333333;
+    text-align: center;
 }
 .music-table tr:nth-child(even) {
     background-color: #dddddd;
